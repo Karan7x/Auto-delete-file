@@ -75,7 +75,7 @@ async def start(bot: Client, cmd: Message):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/+vMDTjePrNstmNjhl"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/+YzxA0sElhW41MDBl")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/Movies7x")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -351,7 +351,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/+vMDTjePrNstmNjhl"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/+YzxA0sElhW41MDBl")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/Movies7x")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -364,9 +364,9 @@ async def button(bot: Client, cmd: CallbackQuery):
     elif "refreshForceSub" in cb_data:
         if Config.UPDATES_CHANNEL:
             if Config.UPDATES_CHANNEL.startswith("-100"):
-                channel_chat_id = int(Config.UPDATES_CHANNEL,UPDATES_CHANNEL1)
+                channel_chat_id = int(Config.UPDATES_CHANNEL)
             else:
-                channel_chat_id = Config.UPDATES_CHANNEL,UPDATES_CHANNEL1
+                channel_chat_id = Config.UPDATES_CHANNEL
             try:
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
@@ -405,7 +405,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/+vMDTjePrNstmNjhl"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/+YzxA0sElhW41MDBl")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/Movies7x")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
