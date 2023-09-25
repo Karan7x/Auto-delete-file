@@ -364,9 +364,9 @@ async def button(bot: Client, cmd: CallbackQuery):
     elif "refreshForceSub" in cb_data:
         if Config.UPDATES_CHANNEL:
             if Config.UPDATES_CHANNEL.startswith("-100"):
-                channel_chat_id = int(Config.UPDATES_CHANNEL)
+                channel_chat_id = int(Config.UPDATES_CHANNEL,UPDATES_CHANNEL1)
             else:
-                channel_chat_id = Config.UPDATES_CHANNEL
+                channel_chat_id = Config.UPDATES_CHANNEL,UPDATES_CHANNEL1
             try:
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
