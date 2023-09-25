@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/+vMDTjePrNstmNjhl"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/+P-zPGy3Gjy1kOWQ9"),
                         InlineKeyboardButton("Bots Channel", url="https://t.me/Movies7x")
                     ],
                     [
@@ -350,7 +350,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/+vMDTjePrNstmNjhl"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/+P-zPGy3Gjy1kOWQ9"),
                         InlineKeyboardButton("Bots Channel", url="https://t.me/Movies7x")
                     ],
                     [
@@ -404,7 +404,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/+vMDTjePrNstmNjhl"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/+P-zPGy3Gjy1kOWQ9"),
                         InlineKeyboardButton("Bots Channel", url="https://t.me/Movies7x")
                     ],
                     [
