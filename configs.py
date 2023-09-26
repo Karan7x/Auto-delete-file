@@ -6,7 +6,7 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "23435356"))
 	API_HASH = os.environ.get("API_HASH", "1ea262b27647cf2a498797f402ab63b0")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6617523768:6305022250:AAH_NLrJrMMKOs08jE2_zYwBnhsQmbVKF5A")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6305022250:AAH_NLrJrMMKOs08jE2_zYwBnhsQmbVKF5A")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "ProXMovies7xBoT")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001884933078"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6174059065"))
