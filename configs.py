@@ -9,7 +9,7 @@ class Config(object):
 	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6617523768:AAHgSIc1nS0EA8RDbIHD2FZvdPkGhmJyVMM")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "FilesharinG_7xBoT")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001884933078"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1773110781"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6174059065"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://dasha:dasha7x@cluster0.kipxnlu.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "Movies7x")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001968206800")
